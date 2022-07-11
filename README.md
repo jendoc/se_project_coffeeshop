@@ -13,4 +13,15 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+ - Build and style Menu
+ - Build and style Recipes
+ - Build and style Reservation block
+ - Build and style About block
+ - Animate About block
+ - Build and style footer
+ - Self-review
+    - Go through brief
+    - Validate
+    - Inspect for redundancies
+    - Submit
+    - Profit
