@@ -25,6 +25,7 @@
     column-gap: 20px;
     display: flex;
     padding: 30px 80px 0px 0px;
+    margin: 0;
 }
 
 .nav__link {
@@ -38,7 +39,7 @@
 }
 
 .header__span-accent {
-    font-family: 'Noto Serif';
+    font-family: 'Noto Serif', 'Times New Roman', serif;
     font-style: italic;
     font-weight: normal;
     font-size: 60px;

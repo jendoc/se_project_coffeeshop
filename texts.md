@@ -83,4 +83,4 @@ Social media
 Facebook
 Instagram
 
-© 2022 Your name
+© 2022 Jennifer Doctor
