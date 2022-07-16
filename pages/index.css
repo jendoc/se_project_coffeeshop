@@ -10,12 +10,22 @@
 
 @import url(../blocks/reservation.css);
 
+@import url(../blocks/form.css);
+
 @import url(../blocks/about.css);
 
 @import url(../blocks/footer.css);
 
-/* Noto Serif for use in correct block
-* {
-  font-family: 'Noto Serif', 'Times New Roman', serif;
+@keyframes pulsate {
+  0% {
+        opacity: '0%';
+  }
+
+  50% {
+        opacity: '0.6%';
+  }
+
+  100% {
+        transform: scale(1);
+  }
 }
-*/

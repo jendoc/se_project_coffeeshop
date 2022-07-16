@@ -27,10 +27,7 @@
     padding-bottom: 215px;
     display: flex;
     flex-direction: row;
-}
-
-.recipes__videos :first-of-type {
-    margin-right: 40px;
+    column-gap: 40px;
 }
 
 .recipes__iframe {

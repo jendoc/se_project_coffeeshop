@@ -27,14 +27,12 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 100px;
 }
 
 .card {
     width: 600px;
-}
-
-.card:first-of-type {
-    margin: 0px 100px 100px 0px;
 }
 
 .card:last-of-type {
@@ -49,9 +47,10 @@
     margin: 0px;
 }
 
+/* This may go against BEM, I am unsure how to get rid of the inline start gap without creating a class that is not specified in the brief. */
 ul {
     padding-inline-start: 0px;
-}
+} 
 
 .card__list-item {
     padding: 0px 0px 16px 0px;

@@ -13,12 +13,12 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
- - Build and style Menu
- - Build and style Recipes
- - Build and style Reservation block
- - Build and style About block
- - Animate About block
  - Build and style footer
+ - Fix inline issue Reservation Checkbox & Label
+ - Fix animation issue About section
+   - Why does the circle disappear when I specify top aboslute position?
+ - Double-check BEM blocks in CSS
+
  - Self-review
     - Go through brief
     - Validate
