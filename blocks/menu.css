@@ -1,4 +1,69 @@
 .menu {
     background: #0a2750 url(../images/background_menu.svg) no-repeat center / cover;
+    color: #ffffff;
 }
 
+.menu__title {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 100px 0px 24px 0px;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.menu__subtitle {
+    max-width: 780px;
+    margin: 0 auto;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.menu__cards {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 600px;
+}
+
+.card:first-of-type {
+    margin: 0px 100px 100px 0px;
+}
+
+.card:last-of-type {
+    align-self: center;
+}
+
+.card__title {
+    padding-bottom: 32px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.card__list-item {
+    padding: 0px 0px 16px 0px;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+
+.card__list-divider {
+   display: inline-block;
+   flex-grow: 1; 
+   border-bottom: 1px #fff solid;
+   margin: 0px 5px;
+}
