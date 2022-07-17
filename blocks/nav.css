@@ -1,13 +1,23 @@
 .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
 }
 
 .nav__links {
     list-style: none;
     font-weight: 500;
-    column-gap: 20px;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 30px 80px 0px 0px;
     margin: 0;
@@ -16,7 +26,9 @@
 .nav__link {
     color: #000;
     text-decoration: none;
-    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+         -o-transition-duration: 0.7s;
+            transition-duration: 0.7s;
 }
 
 .nav__link:hover {
