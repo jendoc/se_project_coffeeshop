@@ -1,8 +1,12 @@
 .about {
     background: #0a2750;
     color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     overflow: hidden;
     position: relative;
 }
@@ -48,6 +52,7 @@
 }
 
 .about__circle_animation_blurred {
-    animation: pulsate 1.3s ease-in-out infinite;
+    -webkit-animation: pulsate 1.3s ease-in-out infinite;
+            animation: pulsate 1.3s ease-in-out infinite;
     z-index: 1;
 }
