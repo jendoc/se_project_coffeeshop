@@ -3,6 +3,8 @@
     color: #ffffff;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+    position: relative;
 }
 
 .about__title {
@@ -13,7 +15,7 @@
     line-height: 52px;
     font-weight: 500;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .about__content {
@@ -22,7 +24,7 @@
     font-family: 'Noto Serif', 'Times New Roman', serif;
     font-size: 20px;
     line-height: 30px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .about__paragraph {
@@ -35,14 +37,17 @@
 }
 
 .about__circle {
-    height: 426px;
+    background-color: #2f80ed;
     width: 426px;
-    position: absolute;
-    background: #2f80ed;
+    height: 426px;
     border-radius: 50%;
-    z-index: 1;
+    position: absolute;
+    z-index: 2;
+    left: -129px;
+    top: -152px;
 }
 
 .about__circle_animation_blurred {
-    animation: pulsate 1.3s ease-in-out infinite alternate;
+    animation: pulsate 1.3s ease-in-out infinite;
+    z-index: 1;
 }

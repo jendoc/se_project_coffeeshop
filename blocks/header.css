@@ -7,37 +7,6 @@
     box-sizing: border-box;
 }
 
-.logo {
-    margin: 30px 0px 80px 30px;
-    width: 125px;
-    height: 142px;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-}
-
-.nav__links {
-    list-style: none;
-    font-weight: 500;
-    column-gap: 20px;
-    display: flex;
-    padding: 30px 80px 0px 0px;
-    margin: 0;
-}
-
-.nav__link {
-    color: #000;
-    text-decoration: none;
-    transition-duration: 0.7s;
-}
-
-.nav__link:hover {
-    color: #2F80ED;
-}
-
 .header__span-accent {
     font-family: 'Noto Serif', 'Times New Roman', serif;
     font-style: italic;
@@ -94,6 +63,7 @@
 }
 
 .header__paragraph {
+    color: #6f6f6f;
     font-weight: 500;
     margin: 0;
     align-self: flex-end;

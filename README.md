@@ -13,11 +13,8 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
- - Build and style footer
  - Fix inline issue Reservation Checkbox & Label
- - Fix animation issue About section
-   - Why does the circle disappear when I specify top aboslute position?
- - Double-check BEM blocks in CSS
+ - Fix inline issue in footer block
 
  - Self-review
     - Go through brief

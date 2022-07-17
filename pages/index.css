@@ -4,6 +4,10 @@
 
 @import url(../blocks/header.css);
 
+@import url(../blocks/logo.css);
+
+@import url(../blocks/nav.css);
+
 @import url(../blocks/menu.css);
 
 @import url(../blocks/recipes.css);
@@ -18,14 +22,15 @@
 
 @keyframes pulsate {
   0% {
-        opacity: '0%';
+        opacity: 0;
   }
 
   50% {
-        opacity: '0.6%';
+        opacity: 0.6;
   }
 
   100% {
-        transform: scale(1);
+        transform: scale(1.2);
+        opacity: 0;
   }
 }

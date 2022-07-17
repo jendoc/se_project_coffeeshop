@@ -15,7 +15,7 @@
 </head>
 <body>
 <div class="page">
-  <header class="header">
+    <header class="header">
     <nav class="nav">
       <img src="./images/logo_coffee_shop.svg" alt="Practicum's Coffee Shop Logo" class="logo">
       <ul class="nav__links">
@@ -108,21 +108,39 @@
           <input class="form__input" required type="email" placeholder="email@email.com" id="email"/>
         </fieldset>
         <button class="form__button" type="submit">Book a table</button>
-        <input type="checkbox" class="form__checkbox" required id="terms-agreement"/><label class="form__label" for="terms-agreement">I agree with the terms of use</label>
+        <label class="form__label" for="terms-agreement"> <input type="checkbox" class="form__checkbox" required id="terms-agreement" /> I agree with the terms of use</label>
       </form>
   </section>
-  <section class="about"><h2 class="about__title">About the coffee shop</h2>
+
+  <section class="about">
+    <h2 class="about__title">About the coffee shop</h2>
     <div class="about__content">
       <p class="about__paragraph">Our coffee shop is located in the Practicum Library's hall. It features 6 tables and free WiFi.</p>
       <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p>
       <p class="about__paragraph">Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!</p>
-      </div>
+    </div>
     <div class="about__circle"></div>
     <div class="about__circle about__circle_animation_blurred"></div>
   </section>
   </main>
   <footer  class="footer" id="footer">
-
+    <div class="footer__content">
+      <img class="footer__logo" src="./images/practicum_logo.svg" alt="Practicum logo"/>
+      <div class="footer__social">
+      <h3 class="footer__social-heading">Social media</h3>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <img class="footer__social-icon" src="./images/facebook_white.svg" alt="Facebook logo"/>
+          <a class="footer__social-link" href="#">Facebook</a>
+        </li>
+        <li class="footer__list-item">
+          <img class="footer__social-icon" src="./images/instagram_white.svg" alt="Instagram logo"/>
+          <a class="footer__social-link" href="#">Instagram</a>
+        </li>
+      </ul>
+      </div>
+    </div>
+    <p class="footer__copyright">© 2022 Jennifer Doctor</p>
   </footer>
 </div>
 </body>
