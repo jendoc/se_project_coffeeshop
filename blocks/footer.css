@@ -34,6 +34,7 @@
 .footer__list {
     list-style: none;
     margin: 0;
+    padding: 0px;
 }
 
 .footer__list-item {
@@ -44,7 +45,6 @@
 
 .footer__list-item:first-of-type {
     padding-bottom: 16px;
-    display: inline-block;
 }
 
 .footer__social-icon {

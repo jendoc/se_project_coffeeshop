@@ -61,6 +61,7 @@
 
 .header__footer {
     position: absolute;
+    z-index: 2;
     bottom: 40px;
     width: 100%;
     display: -webkit-box;
